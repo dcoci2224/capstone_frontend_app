@@ -14,6 +14,8 @@
       <router-link to="/login">Login</router-link>
       |
       <router-link to="/logout">Logout</router-link>
+      |
+      <router-link to="/carted_products">Shopping Cart</router-link>
     </div>
     <router-view />
   </div>
