@@ -6,8 +6,9 @@
       <p>{{ country.nickname }}</p>
       <p>World Ranking {{ country.world_ranking }}</p>
       <!-- <p>{{ country.image_url }}</p> -->
-      <router-link v-bind:to="`/countries/${country.id}`">More details</router-link>
-      <p>{{ country.video_url }}</p>
+      <div>
+        <router-link v-bind:to="`/countries/${country.id}`">More details</router-link>
+      </div>
       <img v-bind:src="country.image_url" alt />
     </div>
   </div>

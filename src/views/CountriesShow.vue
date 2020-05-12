@@ -4,10 +4,13 @@
     <p>{{ country.nickname }}</p>
     <p>World Ranking{{ country.world_ranking }}</p>
     <p>{{ country.video_url }}</p>
+    <p>{{ country.products }}</p>
     <img v-bind:src="country.image_url" alt />
     <div>
       <button v-on:click="destroyCountry(country)">Destroy country</button>
     </div>
+    <router-link v-bind:to="`/countries/${country.id}/edit`">Edit country</router-link>
+    |
     <router-link to="/countries/">Back to all countries</router-link>
   </div>
 </template>

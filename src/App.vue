@@ -8,6 +8,12 @@
       <router-link to="/countries">All Countries</router-link>
       |
       <router-link to="/countries/new">New Country</router-link>
+      |
+      <router-link to="/signup">Signup</router-link>
+      |
+      <router-link to="/login">Login</router-link>
+      |
+      <router-link to="/logout">Logout</router-link>
     </div>
     <router-view />
   </div>
@@ -35,3 +41,21 @@
   color: #42b983;
 }
 </style>
+
+<script>
+export default {
+  data: function() {
+    return {
+      jwt: null,
+    };
+  },
+  created: function() {
+    this.setJwt();
+  },
+  methods: {
+    setJwt: function() {
+      this.jwt = localStorage.jwt;
+    },
+  },
+};
+</script>
