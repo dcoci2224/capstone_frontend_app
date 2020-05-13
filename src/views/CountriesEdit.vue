@@ -17,6 +17,31 @@
       <input type="text" v-model="country.video_url" />
       <input type="submit" value="Update" />
     </form>
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" class="form-control" v-model="country.name" />
+    </div>
+    <div class="form-group">
+      <label>Nickname:</label>
+      <input type="text" class="form-control" v-model="country.nickname" />
+    </div>
+    <div class="form-group">
+      <label>World Ranking:</label>
+      <input type="text" class="form-control" v-model="country.world_ranking" />
+    </div>
+    <div class="form-group">
+      <label>Image Url:</label>
+      <input type="text" class="form-control" v-model="country.image_url" />
+    </div>
+
+    <div class="form-group">
+      <label>Video Url:</label>
+      <input type="text" class="form-control" v-model="country.video_url" />
+    </div>
+
+    <div>
+      <input type="submit" class="btn btn-primary" value="Update" />
+    </div>
   </div>
 </template>
 
@@ -38,14 +63,14 @@ export default {
   methods: {
     updatecountry: function(country) {
       var params = {
-        name: country.name,
-        nickname: country.nickname,
-        world_ranking: country.worldRanking,
-        image_url: country.image_url,
-        video_url: country.video_url,
+        name: this.name,
+        nickname: this.nickname,
+        world_ranking: this.worldRanking,
+        image_url: this.image_url,
+        video_url: this.video_url,
       };
       axios
-        .patch("/api/countries/" + country.id, params)
+        .patch("/api/countries/" + this.$route.params.id, params)
         .then(response => {
           this.$router.push("/countries");
         })

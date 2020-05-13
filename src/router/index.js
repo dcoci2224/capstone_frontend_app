@@ -61,6 +61,11 @@ const routes = [
     name: "countries-edit",
     component: CountriesShow,
   },
+  {
+    path: "/carted_products",
+    name: "carted_products-index",
+    component: CountriesShow,
+  },
 ];
 
 const router = new VueRouter({
