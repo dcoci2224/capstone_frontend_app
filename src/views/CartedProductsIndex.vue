@@ -2,10 +2,12 @@
   <div class="container">
     <h1>Shopping Cart</h1>
     <div v-for="carted_product in carted_products">
-    <h2>{{ carted_product }}</h2>
-    <p>{{product.image_url}}</p>
-    <div>
-      <router-link to="/countries/">Back to all countries</router-link>
+      <h2>{{ carted_product.product.name }}</h2>
+      <p>{{ carted_product.quantity }}</p>
+      <p>{{ carted_product.product.image_url }}</p>
+      <div>
+        <router-link to="/countries/">Back to all countries</router-link>
+      </div>
     </div>
   </div>
 </template>

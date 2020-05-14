@@ -8,6 +8,7 @@ import CountriesIndex from "../views/CountriesIndex.vue";
 import CountriesNew from "../views/CountriesNew.vue";
 import CountriesShow from "../views/CountriesShow.vue";
 import CountriesEdit from "../views/CountriesEdit.vue";
+import CartedProductsIndex from "../views/CartedProductsIndex.vue";
 
 Vue.use(VueRouter);
 
@@ -59,12 +60,12 @@ const routes = [
   {
     path: "/countries/:id/edit",
     name: "countries-edit",
-    component: CountriesShow,
+    component: CountriesEdit,
   },
   {
     path: "/carted_products",
     name: "carted_products-index",
-    component: CountriesShow,
+    component: CartedProductsIndex,
   },
 ];
 
