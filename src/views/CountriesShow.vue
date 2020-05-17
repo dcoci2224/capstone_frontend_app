@@ -2,23 +2,26 @@
   <div class="container">
     <h2>{{ country.name }}</h2>
     <p>{{ country.nickname }}</p>
-    <p>World Ranking{{ country.world_ranking }}</p>
-    <p>{{ country.video_url }}</p>
+    <p>World Ranking: {{ country.world_ranking }}</p>
+    <iframe
+      width="420"
+      height="315"
+      v-bind:src="`https://www.youtube.com/embed/${country.video_url.split('/').pop()}`"
+    ></iframe>
     <!-- <p>{{ country.products }}</p> -->
     <div v-for="product in country.products">
-      <h4>{{product.name}}</h4>
+      <h4>{{ product.image_url }}</h4>
       <button v-on:click="createCartedProduct(product)">Add to cart</button>
     </div>
-    <br>
-    <img v-bind:src="country.image_url" alt />
-    </br>
+    <br />
+    <img v-bind:src="country.image_url" alt="" height="400" width="600" />
     <!-- <div>
       <button v-on:click="destroyCountry(country)">Destroy country</button>
     </div>
     <router-link v-bind:to="`/countries/${country.id}/edit`">Edit country</router-link>
     | -->
     <div>
-      <router-link to="/countries/">Back to all countries</router-link>
+      <router-link to="/">Back to home page</router-link>
     </div>
   </div>
 </template>
@@ -31,7 +34,7 @@ import axios from "axios";
 export default {
   data: function() {
     return {
-      country: {},
+      country: { video_url: "" },
       carted_product: {},
       products: {},
     };
@@ -46,7 +49,7 @@ export default {
   },
   methods: {
     createCartedProduct: function(product) {
-      var params = {product_id: product.id}
+      var params = { product_id: product.id };
       axios.post("/api/carted_products/", params).then(response => {
         this.$router.push("/carted_products");
       });
@@ -57,5 +60,5 @@ export default {
       });
     },
   },
-}
+};
 </script>

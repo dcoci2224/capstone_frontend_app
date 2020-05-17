@@ -1,247 +1,484 @@
-  <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Header -->
-      <header id="header">
-        <div class="inner">
-          <!-- Logo -->
-          <a href="index.html" class="logo">
-            <span class="symbol"><img src="images/logo.svg" alt="" /></span>
-            <span class="title">Phantom</span>
-          </a>
-
-          <!-- Nav -->
-          <nav>
-            <ul>
-              <li><a href="#menu">Menu</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
-      <!-- Menu -->
-      <nav id="menu">
-        <h2>Menu</h2>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="generic.html">Ipsum veroeros</a></li>
-          <li><a href="generic.html">Tempus etiam</a></li>
-          <li><a href="generic.html">Consequat dolor</a></li>
-          <li><a href="elements.html">Elements</a></li>
-        </ul>
-      </nav>
-
-      <!-- Main -->
-      <div id="main">
-        <div class="inner">
-          <header>
-            <h1>
-              This is Phantom, a free, fully responsive site
-              <br />
-              template designed by
-              <a href="http://html5up.net">HTML5 UP</a>
-              .
-            </h1>
-            <p>
-              Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu
-              elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem
-              ipsum dolor sit amet nullam dolore.
-            </p>
-          </header>
-          <section class="tiles">
-            <article class="style1">
-              <span class="image">
-                <img src="images/pic01.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Magna</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style2">
-              <span class="image">
-                <img src="images/pic02.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Lorem</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style3">
-              <span class="image">
-                <img src="images/pic03.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Feugiat</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style4">
-              <span class="image">
-                <img src="images/pic04.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Tempus</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style5">
-              <span class="image">
-                <img src="images/pic05.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Aliquam</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style6">
-              <span class="image">
-                <img src="images/pic06.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Veroeros</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style2">
-              <span class="image">
-                <img src="images/pic07.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Ipsum</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style3">
-              <span class="image">
-                <img src="images/pic08.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Dolor</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style1">
-              <span class="image">
-                <img src="images/pic09.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Nullam</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style5">
-              <span class="image">
-                <img src="images/pic10.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Ultricies</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style6">
-              <span class="image">
-                <img src="images/pic11.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Dictum</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-            <article class="style4">
-              <span class="image">
-                <img src="images/pic12.jpg" alt="" />
-              </span>
-              <a href="generic.html">
-                <h2>Pretium</h2>
-                <div class="content">
-                  <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-                </div>
-              </a>
-            </article>
-          </section>
-        </div>
-      </div>
-
-      <!-- Footer -->
-      <footer id="footer">
-        <div class="inner">
-          <section>
-            <h2>Get in touch</h2>
-            <form method="post" action="#">
-              <div class="fields">
-                <div class="field half">
-                  <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div class="field half">
-                  <input type="email" name="email" id="email" placeholder="Email" />
-                </div>
-                <div class="field">
-                  <textarea name="message" id="message" placeholder="Message"></textarea>
-                </div>
-              </div>
-              <ul class="actions">
-                <li><input type="submit" value="Send" class="primary" /></li>
-              </ul>
-            </form>
-          </section>
-          <section>
-            <h2>Follow</h2>
-            <ul class="icons">
-              <li>
-                <a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a>
-              </li>
-              <li>
-                <a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a>
-              </li>
-            </ul>
-          </section>
-          <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved</li>
-            <li>
-              Design:
-              <a href="http://html5up.net">HTML5 UP</a>
-            </li>
-          </ul>
-        </div>
-      </footer>
-    </div>
+<table id="rwctable">
+<tbody>
+<tr>
+<th style="text-align: center; word-break: keep-all; font-weight: bold;">MATCH NO</th>
+<th style="text-align: center; word-break: keep-all; font-weight: bold;">DATE</th>
+<th style="text-align: center; word-break: keep-all; font-weight: bold;">POOL</th>
+<th style="text-align: center; word-break: keep-all; font-weight: bold;" colspan="5">MATCH</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Friday, Sept. 20</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolA">A</a></td>
+<td>Japan</td>
+<td>30</td>
+<td>–</td>
+<td>10</td>
+<td>Russia</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Saturday, Sept. 21</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Australia</td>
+<td>39</td>
+<td>–</td>
+<td>21</td>
+<td>Fiji</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Saturday, Sept. 21</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>France</td>
+<td>23</td>
+<td>–</td>
+<td>21</td>
+<td>Argentina</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Saturday, Sept. 21</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>New Zealand</td>
+<td>23</td>
+<td>–</td>
+<td>13</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sunday, Sept. 22</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>Italy</td>
+<td>47</td>
+<td>–</td>
+<td>22</td>
+<td>Namibia</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Sunday, Sept. 22</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Ireland</td>
+<td>27</td>
+<td>–</td>
+<td>3</td>
+<td>Scotland</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sunday, Sept. 22</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>England</td>
+<td>35</td>
+<td>–</td>
+<td>3</td>
+<td>Tonga</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Monday, Sept. 23</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Wales</td>
+<td>43</td>
+<td>–</td>
+<td>14</td>
+<td>Georgia</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Tuesday, Sept. 24</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Russia</td>
+<td>9</td>
+<td>–</td>
+<td>34</td>
+<td>Samoa</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Wednesday, Sept. 25</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Fiji</td>
+<td>27</td>
+<td>–</td>
+<td>30</td>
+<td>Uruguay</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Thursday, Sept. 26</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>Italy</td>
+<td>48</td>
+<td>–</td>
+<td>7</td>
+<td>Canada</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Thursday, Sept. 26</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>England</td>
+<td>45</td>
+<td>–</td>
+<td>7</td>
+<td>United States</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Saturday, Sept. 28</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>Argentina</td>
+<td>23</td>
+<td>–</td>
+<td>21</td>
+<td>Tonga</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Saturday, Sept. 28</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Japan</td>
+<td>19</td>
+<td>–</td>
+<td>12</td>
+<td>Ireland</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Saturday, Sept. 28</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>South Africa</td>
+<td>57</td>
+<td>–</td>
+<td>3</td>
+<td>Namibia</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Sunday, Sept. 29</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Georgia</td>
+<td>33</td>
+<td>–</td>
+<td>7</td>
+<td>Uruguay</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Sunday, Sept. 29</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Australia</td>
+<td>25</td>
+<td>–</td>
+<td>29</td>
+<td>Wales</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Monday, Sept. 30</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Scotland</td>
+<td>34</td>
+<td>–</td>
+<td>0</td>
+<td>Samoa</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Wednesday, Oct. 2</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>France</td>
+<td>33</td>
+<td>–</td>
+<td>9</td>
+<td>United States</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Wednesday, Oct. 2</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>New Zealand</td>
+<td>63</td>
+<td>–</td>
+<td>0</td>
+<td>Canada</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Thursday, Oct. 3</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Georgia</td>
+<td>10</td>
+<td>–</td>
+<td>45</td>
+<td>Fiji</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Thursday, Oct. 3</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Ireland</td>
+<td>35</td>
+<td>–</td>
+<td>0</td>
+<td>Russia</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Friday, Oct. 4</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>South Africa</td>
+<td>49</td>
+<td>–</td>
+<td>3</td>
+<td>Italy</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Saturday, Oct. 5</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Australia</td>
+<td>45</td>
+<td>–</td>
+<td>10</td>
+<td>Uruguay</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Saturday, Oct. 5</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>England</td>
+<td>39</td>
+<td>–</td>
+<td>10</td>
+<td>Argentina</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Saturday, Oct. 5</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Japan</td>
+<td>38</td>
+<td>–</td>
+<td>19</td>
+<td>Samoa</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Sunday, Oct. 6</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>New Zealand</td>
+<td>71</td>
+<td>–</td>
+<td>9</td>
+<td>Namibia</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Sunday, Oct. 6</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>France</td>
+<td>23</td>
+<td>–</td>
+<td>21</td>
+<td>Tonga</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Tuesday Oct. 8</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>South Africa</td>
+<td>66</td>
+<td>–</td>
+<td>7</td>
+<td>Canada</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Wednesday, Oct. 9</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>Argentina</td>
+<td>47</td>
+<td>–</td>
+<td>17</td>
+<td>United States</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Wednesday, Oct. 9</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Scotland</td>
+<td>61</td>
+<td>–</td>
+<td>0</td>
+<td>Russia</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Wednesday, Oct. 9</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Wales</td>
+<td>29</td>
+<td>–</td>
+<td>17</td>
+<td>Fiji</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Friday, Oct. 11</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Australia</td>
+<td>27</td>
+<td>–</td>
+<td>8</td>
+<td>Georgia</td>
+</tr>
+<tr class="Canceled">
+<td>34</td>
+<td>Saturday, Oct. 12</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>New Zealand</td>
+<td colspan="3">Canceled</td>
+<td style="border-right:1px !important;">Italy</td>
+</tr>
+<tr class="Canceled">
+<td>35</td>
+<td>Saturday, Oct. 12</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>England</td>
+<td colspan="3">Canceled</td>
+<td>France</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Saturday, Oct. 12</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Ireland</td>
+<td>47</td>
+<td>–</td>
+<td>5</td>
+<td>Samoa</td>
+</tr>
+<tr class="Canceled">
+<td>37</td>
+<td>Sunday, Oct. 13</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
+<td>Namibia</td>
+<td colspan="3">Canceled</td>
+<td>Canada</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Sunday, Oct. 13</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
+<td>United States</td>
+<td>19</td>
+<td>–</td>
+<td>31</td>
+<td>Tonga</td>
+</tr>
+<tr>
+<td>39</td>
+<td>Sunday, Oct. 13</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
+<td>Wales</td>
+<td>35</td>
+<td>–</td>
+<td>13</td>
+<td>Uruguay</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Sunday, Oct. 13</td>
+<td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
+<td>Japan</td>
+<td>28</td>
+<td>–</td>
+<td>21</td>
+<td>Scotland</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Saturday, Oct. 19</td>
+<td>QF1</td>
+<td>England</td>
+<td>40</td>
+<td>–</td>
+<td>16</td>
+<td>Australia</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Saturday Oct. 19</td>
+<td>QF2</td>
+<td>New Zealand</td>
+<td>46</td>
+<td>–</td>
+<td>14</td>
+<td>Ireland</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Sunday, Oct. 20</td>
+<td>QF3</td>
+<td>Wales</td>
+<td>20</td>
+<td>–</td>
+<td>19</td>
+<td>France</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Sunday, Oct. 20</td>
+<td>QF4</td>
+<td>Japan</td>
+<td>3</td>
+<td>–</td>
+<td>26</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Saturday, Oct. 26</td>
+<td>SF1</td>
+<td>England</td>
+<td>19</td>
+<td>–</td>
+<td>7</td>
+<td>New Zealand</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Sunday, Oct. 27</td>
+<td>SF2</td>
+<td>Wales</td>
+<td>16</td>
+<td>–</td>
+<td>19</td>
+<td>South Africa</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Friday, Nov. 1</td>
+<td>3rd</td>
+<td>New Zealand</td>
+<td>40</td>
+<td>–</td>
+<td>17</td>
+<td>Wales</td>
+</tr>
+<tr>
+<td>48</td>
+<td>Saturday, Nov. 2</td>
+<td>F</td>
+<td>England</td>
+<td>12</td>
+<td>–</td>
+<td>32</td>
+<td>South Africa</td>
+</tr>
+</tbody>
+</table>

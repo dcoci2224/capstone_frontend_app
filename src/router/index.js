@@ -9,6 +9,9 @@ import CountriesNew from "../views/CountriesNew.vue";
 import CountriesShow from "../views/CountriesShow.vue";
 import CountriesEdit from "../views/CountriesEdit.vue";
 import CartedProductsIndex from "../views/CartedProductsIndex.vue";
+import PoolsIndex from "../views/PoolsIndex.vue";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 Vue.use(VueRouter);
 
@@ -66,6 +69,11 @@ const routes = [
     path: "/carted_products",
     name: "carted_products-index",
     component: CartedProductsIndex,
+  },
+  {
+    path: "/pools",
+    name: "pools-index",
+    component: PoolsIndex,
   },
 ];
 

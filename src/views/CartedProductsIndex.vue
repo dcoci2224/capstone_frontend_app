@@ -6,7 +6,7 @@
       <p>{{ carted_product.quantity }}</p>
       <p>{{ carted_product.product.image_url }}</p>
       <div>
-        <router-link to="/countries/">Back to all countries</router-link>
+        <router-link to="/">Back to home page</router-link>
       </div>
     </div>
   </div>

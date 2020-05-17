@@ -10,7 +10,7 @@
 export default {
   data: function() {
     return {
-      message: "Welcome to the 2019 Rugby World Cup App",
+      message: "",
     };
   },
   created: function() {},
