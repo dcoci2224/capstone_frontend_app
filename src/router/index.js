@@ -10,6 +10,9 @@ import CountriesShow from "../views/CountriesShow.vue";
 import CountriesEdit from "../views/CountriesEdit.vue";
 import CartedProductsIndex from "../views/CartedProductsIndex.vue";
 import PoolsIndex from "../views/PoolsIndex.vue";
+import MatchResultsIndex from "../views/MatchResultsIndex.vue";
+import NextRwcsIndex from "../views/NextRwcsIndex.vue";
+import TimelinesIndex from "../views/TimelinesIndex.vue";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -74,6 +77,21 @@ const routes = [
     path: "/pools",
     name: "pools-index",
     component: PoolsIndex,
+  },
+  {
+    path: "/match_results",
+    name: "match_results-index",
+    component: MatchResultsIndex,
+  },
+  {
+    path: "/next_rwcs",
+    name: "next_rwcs-index",
+    component: NextRwcsIndex,
+  },
+  {
+    path: "/timelines",
+    name: "timelines-index",
+    component: TimelinesIndex,
   },
 ];
 

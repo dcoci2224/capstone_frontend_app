@@ -62,14 +62,7 @@
     <!-- Header -->
     <header id="header">
       <div class="inner">
-        <!-- Logo -->
-        <!-- <a href="index.html" class="logo">
-          <span class="symbol">
-            <img src="https://www.fijitimes.com/wp-content/uploads/2018/12/Rugby-World-Cup-2019.png" alt="" />
-          </span>
-          <span class="title">2019 RWC</span>
-        </a> -->
-
+        
         <!-- Nav -->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -98,21 +91,23 @@
                   Home
                   <span class="sr-only">(current)</span>
                 </a>
-              </li>
-              <!-- <li class="nav-item">
+
+                <!-- <li class="nav-item">
                 <router-link class="nav-link" to="/countries">Teams</router-link>
               </li> -->
+              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="/pools">Pools</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">Match Results</a>
+                <a class="nav-link" href="/match_results">Match Results</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">RWC History</a>
+                <a class="nav-link" href="/timelines">RWC History</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://youtu.be/SNFpHHFW1eM">2023 RWC</a>
+                <a class="nav-link" href="/next_rwcs">2023 RWC</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/carted_products">Shopping cart</a>
@@ -146,13 +141,12 @@
       <div class="inner">
         <header>
           <h1>
-            2019 was held in Japan!
+            Japan 2019!
             <br />
-            South Africa are your 2019 RWC Champions!
+            <br />
+            <strong>Check out the top 10 tries of the tournament!</strong>
             <a
-              href="https://jw-webmagazine.com/wp-content/uploads/2019/07/RWC2019_Venue-Map_Poster_1800_1200_FINAL.jpg"
-            >
-              SA
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/dexpn0Vv7a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </a>
           </h1>
           <p>
@@ -162,7 +156,7 @@
           </p>
         </header>
         <section class="tiles">
-          <article class="style1">
+          <article class="style11">
             <!-- SA -->
             <span class="image">
               <img
@@ -194,7 +188,7 @@
               </div>
             </a>
           </article>
-          <article class="style2">
+          <article class="style21">
             <!-- NZ -->
             <span class="image">
               <img
@@ -226,7 +220,7 @@
               </div>
             </a>
           </article>
-          <article class="style3">
+          <article class="style31">
             <!-- england -->
             <span class="image">
               <img
@@ -256,7 +250,7 @@
               </div>
             </a>
           </article>
-          <article class="style4">
+          <article class="style41">
             <!--Ire -->
             <span class="image">
               <img
@@ -289,7 +283,7 @@
               </div>
             </a>
           </article>
-          <article class="style5">
+          <article class="style51">
             <!--Wales -->
             <span class="image">
               <img
@@ -320,7 +314,7 @@
               </div>
             </a>
           </article>
-          <article class="style6">
+          <article class="style61">
             <!--France -->
             <span class="image">
               <img
@@ -349,7 +343,7 @@
               </div>
             </a>
           </article>
-          <article class="style1">
+          <article class="style11">
             <!--AUS-->
             <span class="image">
               <img
@@ -378,7 +372,7 @@
               </div>
             </a>
           </article>
-          <article class="style3">
+          <article class="style31">
             <!-- Sco -->
             <span class="image">
               <img
@@ -414,7 +408,7 @@
               </div>
             </a>
           </article>
-          <article class="style1">
+          <article class="style11">
             <!--JAP-->
             <span class="image">
               <img
@@ -449,7 +443,7 @@
               </div>
             </a>
           </article>
-          <article class="style5">
+          <article class="style51">
             <!--ARG-->
             <span class="image">
               <img
@@ -482,7 +476,7 @@
               </div>
             </a>
           </article>
-          <article class="style6">
+          <article class="style61">
             <!--Fiji-->
             <span class="image">
               <img
@@ -508,7 +502,7 @@
               </div>
             </a>
           </article>
-          <article class="style4">
+          <article class="style41">
             <!--Geo-->
             <span class="image">
               <img
@@ -542,7 +536,7 @@
               </div>
             </a>
           </article>
-          <article class="style2">
+          <article class="style21">
             <!--tonga-->
             <span class="image">
               <img
@@ -577,7 +571,7 @@
               </div>
             </a>
           </article>
-          <article class="style1">
+          <article class="style11">
             <!--ita-->
             <span class="image">
               <img
@@ -609,7 +603,7 @@
               </div>
             </a>
           </article>
-          <article class="style5">
+          <article class="style51">
             <!--samoa-->
             <span class="image">
               <img
@@ -638,7 +632,7 @@
               </div>
             </a>
           </article>
-          <article class="style3">
+          <article class="style31">
             <!--usa-->
             <span class="image">
               <img
@@ -673,7 +667,7 @@
               </div>
             </a>
           </article>
-          <article class="style6">
+          <article class="style61">
             <!--ura-->
             <span class="image">
               <img
@@ -707,7 +701,7 @@
               </div>
             </a>
           </article>
-          <article class="style1">
+          <article class="style11">
             <!--Rus-->
             <span class="image">
               <img
@@ -736,7 +730,7 @@
               </div>
             </a>
           </article>
-          <article class="style2">
+          <article class="style21">
             <!--Can-->
             <span class="image">
               <img
@@ -770,7 +764,7 @@
               </div>
             </a>
           </article>
-          <article class="style6">
+          <article class="style61">
             <!--namibia-->
             <span class="image">
               <img
@@ -805,495 +799,7 @@
         </section>
       </div>
     </div>
-    <!-- <strong>Match Results</strong>
-    <br />
-    <br />
-    <div class="overthrow">
-      <table id="rwctable">
-        <tbody>
-          <tr>
-            <th style="text-align: center; word-break: keep-all; font-weight: bold;">MATCH NO</th>
-            <th style="text-align: center; word-break: keep-all; font-weight: bold;">DATE</th>
-            <th style="text-align: center; word-break: keep-all; font-weight: bold;">POOL</th>
-            <th style="text-align: center; word-break: keep-all; font-weight: bold;" colspan="5">MATCH</th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Friday, Sept. 20</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolA">A</a></td>
-            <td>Japan</td>
-            <td>30</td>
-            <td>–</td>
-            <td>10</td>
-            <td>Russia</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Saturday, Sept. 21</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Australia</td>
-            <td>39</td>
-            <td>–</td>
-            <td>21</td>
-            <td>Fiji</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Saturday, Sept. 21</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>France</td>
-            <td>23</td>
-            <td>–</td>
-            <td>21</td>
-            <td>Argentina</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Saturday, Sept. 21</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>New Zealand</td>
-            <td>23</td>
-            <td>–</td>
-            <td>13</td>
-            <td>South Africa</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Sunday, Sept. 22</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>Italy</td>
-            <td>47</td>
-            <td>–</td>
-            <td>22</td>
-            <td>Namibia</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>Sunday, Sept. 22</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Ireland</td>
-            <td>27</td>
-            <td>–</td>
-            <td>3</td>
-            <td>Scotland</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>Sunday, Sept. 22</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>England</td>
-            <td>35</td>
-            <td>–</td>
-            <td>3</td>
-            <td>Tonga</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>Monday, Sept. 23</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Wales</td>
-            <td>43</td>
-            <td>–</td>
-            <td>14</td>
-            <td>Georgia</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>Tuesday, Sept. 24</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Russia</td>
-            <td>9</td>
-            <td>–</td>
-            <td>34</td>
-            <td>Samoa</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Wednesday, Sept. 25</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Fiji</td>
-            <td>27</td>
-            <td>–</td>
-            <td>30</td>
-            <td>Uruguay</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>Thursday, Sept. 26</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>Italy</td>
-            <td>48</td>
-            <td>–</td>
-            <td>7</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>Thursday, Sept. 26</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>England</td>
-            <td>45</td>
-            <td>–</td>
-            <td>7</td>
-            <td>United States</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>Saturday, Sept. 28</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>Argentina</td>
-            <td>23</td>
-            <td>–</td>
-            <td>21</td>
-            <td>Tonga</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>Saturday, Sept. 28</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Japan</td>
-            <td>19</td>
-            <td>–</td>
-            <td>12</td>
-            <td>Ireland</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>Saturday, Sept. 28</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>South Africa</td>
-            <td>57</td>
-            <td>–</td>
-            <td>3</td>
-            <td>Namibia</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>Sunday, Sept. 29</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Georgia</td>
-            <td>33</td>
-            <td>–</td>
-            <td>7</td>
-            <td>Uruguay</td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td>Sunday, Sept. 29</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Australia</td>
-            <td>25</td>
-            <td>–</td>
-            <td>29</td>
-            <td>Wales</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td>Monday, Sept. 30</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Scotland</td>
-            <td>34</td>
-            <td>–</td>
-            <td>0</td>
-            <td>Samoa</td>
-          </tr>
-          <tr>
-            <td>19</td>
-            <td>Wednesday, Oct. 2</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>France</td>
-            <td>33</td>
-            <td>–</td>
-            <td>9</td>
-            <td>United States</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>Wednesday, Oct. 2</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>New Zealand</td>
-            <td>63</td>
-            <td>–</td>
-            <td>0</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>21</td>
-            <td>Thursday, Oct. 3</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Georgia</td>
-            <td>10</td>
-            <td>–</td>
-            <td>45</td>
-            <td>Fiji</td>
-          </tr>
-          <tr>
-            <td>22</td>
-            <td>Thursday, Oct. 3</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Ireland</td>
-            <td>35</td>
-            <td>–</td>
-            <td>0</td>
-            <td>Russia</td>
-          </tr>
-          <tr>
-            <td>23</td>
-            <td>Friday, Oct. 4</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>South Africa</td>
-            <td>49</td>
-            <td>–</td>
-            <td>3</td>
-            <td>Italy</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>Saturday, Oct. 5</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Australia</td>
-            <td>45</td>
-            <td>–</td>
-            <td>10</td>
-            <td>Uruguay</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>Saturday, Oct. 5</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>England</td>
-            <td>39</td>
-            <td>–</td>
-            <td>10</td>
-            <td>Argentina</td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>Saturday, Oct. 5</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Japan</td>
-            <td>38</td>
-            <td>–</td>
-            <td>19</td>
-            <td>Samoa</td>
-          </tr>
-          <tr>
-            <td>27</td>
-            <td>Sunday, Oct. 6</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>New Zealand</td>
-            <td>71</td>
-            <td>–</td>
-            <td>9</td>
-            <td>Namibia</td>
-          </tr>
-          <tr>
-            <td>28</td>
-            <td>Sunday, Oct. 6</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>France</td>
-            <td>23</td>
-            <td>–</td>
-            <td>21</td>
-            <td>Tonga</td>
-          </tr>
-          <tr>
-            <td>29</td>
-            <td>Tuesday Oct. 8</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>South Africa</td>
-            <td>66</td>
-            <td>–</td>
-            <td>7</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>Wednesday, Oct. 9</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>Argentina</td>
-            <td>47</td>
-            <td>–</td>
-            <td>17</td>
-            <td>United States</td>
-          </tr>
-          <tr>
-            <td>31</td>
-            <td>Wednesday, Oct. 9</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Scotland</td>
-            <td>61</td>
-            <td>–</td>
-            <td>0</td>
-            <td>Russia</td>
-          </tr>
-          <tr>
-            <td>32</td>
-            <td>Wednesday, Oct. 9</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Wales</td>
-            <td>29</td>
-            <td>–</td>
-            <td>17</td>
-            <td>Fiji</td>
-          </tr>
-          <tr>
-            <td>33</td>
-            <td>Friday, Oct. 11</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Australia</td>
-            <td>27</td>
-            <td>–</td>
-            <td>8</td>
-            <td>Georgia</td>
-          </tr>
-          <tr class="Canceled">
-            <td>34</td>
-            <td>Saturday, Oct. 12</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>New Zealand</td>
-            <td colspan="3">Canceled</td>
-            <td style="border-right:1px !important;">Italy</td>
-          </tr>
-          <tr class="Canceled">
-            <td>35</td>
-            <td>Saturday, Oct. 12</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>England</td>
-            <td colspan="3">Canceled</td>
-            <td>France</td>
-          </tr>
-          <tr>
-            <td>36</td>
-            <td>Saturday, Oct. 12</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Ireland</td>
-            <td>47</td>
-            <td>–</td>
-            <td>5</td>
-            <td>Samoa</td>
-          </tr>
-          <tr class="Canceled">
-            <td>37</td>
-            <td>Sunday, Oct. 13</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolb">B</a></td>
-            <td>Namibia</td>
-            <td colspan="3">Canceled</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>38</td>
-            <td>Sunday, Oct. 13</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poolc">C</a></td>
-            <td>United States</td>
-            <td>19</td>
-            <td>–</td>
-            <td>31</td>
-            <td>Tonga</td>
-          </tr>
-          <tr>
-            <td>39</td>
-            <td>Sunday, Oct. 13</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poold">D</a></td>
-            <td>Wales</td>
-            <td>35</td>
-            <td>–</td>
-            <td>13</td>
-            <td>Uruguay</td>
-          </tr>
-          <tr>
-            <td>40</td>
-            <td>Sunday, Oct. 13</td>
-            <td><a href="/japan-global-sports/rugby-world-cup-2019/schedule/pool/#poola">A</a></td>
-            <td>Japan</td>
-            <td>28</td>
-            <td>–</td>
-            <td>21</td>
-            <td>Scotland</td>
-          </tr>
-          <tr>
-            <td>41</td>
-            <td>Saturday, Oct. 19</td>
-            <td>QF1</td>
-            <td>England</td>
-            <td>40</td>
-            <td>–</td>
-            <td>16</td>
-            <td>Australia</td>
-          </tr>
-          <tr>
-            <td>42</td>
-            <td>Saturday Oct. 19</td>
-            <td>QF2</td>
-            <td>New Zealand</td>
-            <td>46</td>
-            <td>–</td>
-            <td>14</td>
-            <td>Ireland</td>
-          </tr>
-          <tr>
-            <td>43</td>
-            <td>Sunday, Oct. 20</td>
-            <td>QF3</td>
-            <td>Wales</td>
-            <td>20</td>
-            <td>–</td>
-            <td>19</td>
-            <td>France</td>
-          </tr>
-          <tr>
-            <td>44</td>
-            <td>Sunday, Oct. 20</td>
-            <td>QF4</td>
-            <td>Japan</td>
-            <td>3</td>
-            <td>–</td>
-            <td>26</td>
-            <td>South Africa</td>
-          </tr>
-          <tr>
-            <td>45</td>
-            <td>Saturday, Oct. 26</td>
-            <td>SF1</td>
-            <td>England</td>
-            <td>19</td>
-            <td>–</td>
-            <td>7</td>
-            <td>New Zealand</td>
-          </tr>
-          <tr>
-            <td>46</td>
-            <td>Sunday, Oct. 27</td>
-            <td>SF2</td>
-            <td>Wales</td>
-            <td>16</td>
-            <td>–</td>
-            <td>19</td>
-            <td>South Africa</td>
-          </tr>
-          <tr>
-            <td>47</td>
-            <td>Friday, Nov. 1</td>
-            <td>3rd</td>
-            <td>New Zealand</td>
-            <td>40</td>
-            <td>–</td>
-            <td>17</td>
-            <td>Wales</td>
-          </tr>
-          <tr>
-            <td>48</td>
-            <td>Saturday, Nov. 2</td>
-            <td>F</td>
-            <td>England</td>
-            <td>12</td>
-            <td>–</td>
-            <td>32</td>
-            <td>South Africa</td>
-          </tr>
-        </tbody>
-      </table>
-    </div> -->
+
     <!-- <div class="container"> -->
     <router-view />
 
@@ -1301,18 +807,18 @@
     <footer id="footer">
       <div class="inner">
         <section>
-          <h2>Get in touch</h2>
+          <h2>Subscribe</h2>
           <form method="post" action="#">
             <div class="fields">
               <div class="field half">
-                <input type="text" name="name" id="name" placeholder="Name" />
+                <input type="text" name="name" id="name" placeholder="Name" />1`
               </div>
               <div class="field half">
                 <input type="email" name="email" id="email" placeholder="Email" />
               </div>
-              <div class="field">
+              <!-- <div class="field">
                 <textarea name="message" id="message" placeholder="Message"></textarea>
-              </div>
+              </div> -->
             </div>
             <ul class="actions">
               <li><input type="submit" value="Send" class="primary" /></li>
@@ -1353,10 +859,27 @@
 </template>
 
 <style>
-body {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  background-image: url("");
+h1 {
+  border: 10px solid transparent;
+  padding: 65px;
+  border-image: url(https://www.clipartkey.com/mpngs/m/164-1643101_trophy-clipart-rugby-world-cup-webb-ellis-trophy.png)
+    30 round;
+  font-family: Arial, Helvetica, sans-serif;
 }
+body {
+  background-image: url("https://i.pinimg.com/originals/3e/4c/28/3e4c28c78ad8a85a98721bb0bae8cd23.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+footer {
+  background-image: url("https://www.rugbyworldcup.com/resources/prod/v1.22.0/i/bg-elements/footer-image-desktop@x2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
 </style>
 
 <script>

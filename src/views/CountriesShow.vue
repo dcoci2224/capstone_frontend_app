@@ -10,11 +10,14 @@
     ></iframe>
     <!-- <p>{{ country.products }}</p> -->
     <div v-for="product in country.products">
-      <h4>{{ product.image_url }}</h4>
+      <h4>
+        <strong>{{ product.name }}</strong>
+      </h4>
+      <img v-bind:src="product.image_url" alt="" height="400" width="300" />
       <button v-on:click="createCartedProduct(product)">Add to cart</button>
     </div>
     <br />
-    <img v-bind:src="country.image_url" alt="" height="400" width="600" />
+    <img v-bind:src="country.image_url" alt="" height="400" width="650" />
     <!-- <div>
       <button v-on:click="destroyCountry(country)">Destroy country</button>
     </div>

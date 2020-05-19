@@ -1,6 +1,9 @@
 <template>
   <div class="container">
     <img v-bind:src="pools.image_url" alt />
+    <!-- <p>
+      <a href="https://giphy.com/gifs/worldrugby-logos-rugby-world-cup-union-w8NiBNGTp2j849QzsL">via GIPHY</a>
+    </p> -->
   </div>
 </template>
 
