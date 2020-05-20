@@ -1,22 +1,31 @@
 <template>
   <div class="container">
-    <h1>The 2023 Rugby World Cup will be Hosted by France</h1>
-    <img v-bind:src="next_rwcs.image_url" alt />
-    <div>
-      <iframe
-        width="500"
-        height="400"
-        v-bind:src="`https://www.youtube.com/embed/${next_rwcs.video_url.split('/').pop()}`"
-      ></iframe>
-    </div>
+    <h1>
+      <strong>France 2023</strong>
+      <div>
+        Game Locations
+        <img v-bind:src="next_rwcs.image_url" alt />
+        <br />
+        <br />
+        <br />
+        Promo
+        <iframe
+          width="500"
+          height="400"
+          v-bind:src="`https://www.youtube.com/embed/${next_rwcs.video_url.split('/').pop()}`"
+        ></iframe>
+      </div>
+    </h1>
   </div>
 </template>
 
 <style>
-/* body {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-  background-image: url("https://enginegroup.com/uk/wp-content/uploads/2019/10/JP-Rugby-worldcup-01.jpg");
-} */
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 </style>
 
 <script>

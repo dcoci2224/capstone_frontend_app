@@ -4,9 +4,9 @@
     <div v-for="carted_product in carted_products">
       <h2>{{ carted_product.product.name }}</h2>
       <p>{{ carted_product.quantity }}</p>
-      <p>{{ carted_product.product.image_url }}</p>
+      <img v-bind:src="carted_product.product.image_url" alt="" height="400" width="550" />
       <div>
-        <router-link to="/">Back to home page</router-link>
+        <router-link to="/countries/">Back to home page</router-link>
       </div>
     </div>
   </div>

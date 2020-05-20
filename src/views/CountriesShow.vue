@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <img v-bind:src="country.image_url" alt="" height="400" width="650" />
     <h2>{{ country.name }}</h2>
     <p>{{ country.nickname }}</p>
     <p>World Ranking: {{ country.world_ranking }}</p>
@@ -16,8 +17,7 @@
       <img v-bind:src="product.image_url" alt="" height="400" width="300" />
       <button v-on:click="createCartedProduct(product)">Add to cart</button>
     </div>
-    <br />
-    <img v-bind:src="country.image_url" alt="" height="400" width="650" />
+
     <!-- <div>
       <button v-on:click="destroyCountry(country)">Destroy country</button>
     </div>
