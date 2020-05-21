@@ -3,7 +3,7 @@
     <!-- <h1>
       <strong>Japan 2019</strong>
     </h1> -->
-    <p class="line-1 anim-typewriter">RWC Japan 2019</p>
+    <p class="line-1 anim-typewriter">Rugby World Cup Japan 2019</p>
     <section class="tiles">
       <article class="style11">
         <!-- SA -->

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img v-bind:src="country.image_url" alt="" height="400" width="650" />
+    <img v-bind:src="country.image_url" alt="" height="300" width="750" />
     <h2>{{ country.name }}</h2>
     <p>{{ country.nickname }}</p>
     <p>World Ranking: {{ country.world_ranking }}</p>
