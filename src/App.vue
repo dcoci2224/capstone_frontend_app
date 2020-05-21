@@ -140,7 +140,7 @@
     <div id="main">
       <div class="inner">
         <header>
-          <h1>
+          <!-- <h1>
             <span class="image">
               <img
                 src="https://www.daimani.com/dvh-media/190828-20-Copyright-STH-Japan-Stade1-1920x1080-desktop-003-DAIMANI.jpg?context=bWFzdGVyfGltYWdlc3wzOTM5NDh8aW1hZ2UvanBlZ3xoY2EvaDEzLzg4MjgyMDk2MjcxNjYvMTkwODI4XzIwX0NvcHlyaWdodF9TVEhfSmFwYW5fU3RhZGUxXzE5MjB4MTA4MF9kZXNrdG9wXzAwM19EQUlNQU5JLmpwZ3xiYzBiOTk3ZDE5NThmNjRjYmNkZTEyN2YzZjQzMjViZDIzYTVjYTY3Y2JkMmNlMjgxOThjODFlOWVjMmZjMTBl"
@@ -150,7 +150,7 @@
                 class="center"
               />
             </span>
-          </h1>
+          </h1> -->
         </header>
       </div>
     </div>
@@ -218,7 +218,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200%;
+  width: 40%;
 }
 /* h1 {
   border: 10px solid transparent;

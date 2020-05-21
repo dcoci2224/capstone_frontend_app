@@ -1,20 +1,21 @@
 <template>
   <div class="container">
     <h1>
-      <strong>France 2023</strong>
-      <div>
-        Game Locations
-        <img v-bind:src="next_rwcs.image_url" alt />
-        <br />
-        <br />
-        <br />
-        Promo
-        <iframe
-          width="500"
-          height="400"
-          v-bind:src="`https://www.youtube.com/embed/${next_rwcs.video_url.split('/').pop()}`"
-        ></iframe>
-      </div>
+      <p class="line-1 anim-typewriter">France 2023</p>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <p>Promo</p>
+      <iframe
+        class="center"
+        width="500"
+        height="400"
+        v-bind:src="`https://www.youtube.com/embed/${next_rwcs.video_url.split('/').pop()}`"
+      ></iframe>
+      Game Locations
+      <img v-bind:src="next_rwcs.image_url" alt="" class="center" />
     </h1>
   </div>
 </template>
@@ -24,7 +25,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 150%;
 }
 </style>
 

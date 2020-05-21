@@ -1,8 +1,12 @@
 <template>
   <div class="container">
+    <p class="line-1 anim-typewriter">RWC Japan 2019</p>
+    <br />
     <img v-bind:src="match_results.image_url" alt />
   </div>
 </template>
+
+<style></style>
 
 <script>
 import axios from "axios";

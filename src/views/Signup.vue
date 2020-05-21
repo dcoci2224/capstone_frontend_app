@@ -1,6 +1,6 @@
 <template>
   <div class="signup">
-    <img v-if="status" v-bind:src="`https://http.cat/${status}`" alt="" />
+    <img v-if="status" v-bind:src="`https://http.dog/${status}`" alt="" />
     <div class="container">
       <form v-on:submit.prevent="submit()">
         <h1>Signup</h1>

@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <p class="line-1 anim-typewriter">Timeline of previous Finals</p>
     <img v-bind:src="timelines.url" alt />
     <!-- <p>
       <a href="https://giphy.com/gifs/worldrugby-logos-rugby-world-cup-union-w8NiBNGTp2j849QzsL">via GIPHY</a>
@@ -15,6 +16,12 @@
     ></iframe>
   </div>
 </template>
+
+<style>
+p {
+  font: red;
+}
+</style>
 
 <script>
 import axios from "axios";

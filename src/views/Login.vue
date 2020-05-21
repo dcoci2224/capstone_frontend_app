@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <img v-if="status" v-bind:src="`https://http.cat/${status}`" alt="" />
+    <img v-if="status" v-bind:src="`https://http.cat/${status}`" alt="" height="500" width="400" />
     <div class="container">
       <form v-on:submit.prevent="submit()">
         <h1>Login</h1>
